@@ -12,7 +12,8 @@
         "prepare": "husky install",
         "pre-push": "npm test",
         "commit-msg": "npm test",
-        "server": "json-server --watch ./server/db.json"
+        "server": "json-server --watch ./server/db.json",
+        "sass": "sass scss:css -w"
     },
     "prettier": {
         "singleQuote": true
@@ -44,5 +45,8 @@
                 ]
             }
         }
+    },
+    "dependencies": {
+        "sass": "^1.56.1"
     }
 }
