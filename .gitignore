@@ -1,5 +1,5 @@
 .vscode/
-dist/scripts
+dist/**/*.js
 # Logs
 logs
 *.log
