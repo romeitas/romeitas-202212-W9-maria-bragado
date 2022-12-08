@@ -13,7 +13,7 @@
         "pre-push": "npm test",
         "commit-msg": "npm test",
         "server": "json-server --watch ./server/db.json",
-        "sass": "sass scss:css -w"
+        "sass": "sass scss:dist/css -w"
     },
     "prettier": {
         "singleQuote": true
@@ -47,6 +47,8 @@
         }
     },
     "dependencies": {
+        "json": "^11.0.0",
+        "json-server": "^0.17.1",
         "sass": "^1.56.1"
     }
 }

@@ -16,9 +16,5 @@
         "sourceType": "module"
     },
     "plugins": ["@typescript-eslint"],
-    "rules": {
-        "no-empty-functions": "off",
-        "@typescript-eslint/no-empty-function": "off",
-        "@angular-eslint/no-empty-lifecycle-method": "off"
-    }
+    "rules": {}
 }
