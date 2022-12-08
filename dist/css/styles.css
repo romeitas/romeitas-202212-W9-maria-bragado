@@ -1,0 +1,54 @@
+* {
+  background-color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+img {
+  background-color: transparent;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.pokemon {
+  text-align: center;
+  width: 350px;
+  height: 250px;
+}
+
+.pokemon__h2 {
+  color: #3166ac;
+}
+
+.pokemon__buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.pokemon__buttons__next,
+.pokemon__buttons__prev {
+  background-color: #f1c406;
+  border-radius: 20%;
+  border-color: #f1c406;
+  height: 70%;
+}
+
+/*# sourceMappingURL=styles.css.map */
